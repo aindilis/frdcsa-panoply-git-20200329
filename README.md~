@@ -10,8 +10,6 @@ code.  The most important individual project is the Free Life Planner
 
 = Howto
 
-First clone this repository, and change directory into it.
-
 Be sure you have at least 10144 MB of RAM free for use with VMs
 (otherwise edit the amount of ram in the Vagrantfile - note system
 will probably not be able ot run OpenCyc along with FLP if you reduce
