@@ -15,8 +15,8 @@ First clone this repository, and change directory into it.
 Be sure you have at least 10144 MB of RAM free for use with VMs
 (otherwise edit the amount of ram in the Vagrantfile - note system
 will probably not be able ot run OpenCyc along with FLP if you reduce
-the RAM).  Also make sure you have at least 20 GB disk space free
-(although machine is only 6.2 GB).
+the RAM).  Also make sure you have probably at least 30 GB disk space 
+free (although machine is about 16 GB decompressed).
 
 Then ensure you have recent versions of VirtualBox and vagrant
 installed, and then, in this directory run:
