@@ -34,6 +34,8 @@ installed, and then, in this directory run:
 
 `vagrant up --provider=virtualbox`
 
+Also, be sure to go into Virtualbox -> Devices -> Networking -> Advanced and deselect "Cable Connected" in order to turn off the networking, since the machine is liable to be out of date. We currently still need to determine whether `apt-get update && apt-get upgrade` is going to break the FRDCSA systems installed.
+
 The username is andrewdo and the password is temptemp
 
 See the following for more information on how to use it:
