@@ -10,8 +10,10 @@ code.  The most important individual project is the Free Life Planner
 
 = Howto
 
-First, ensure you have Virtualbox 6.1 installed.  For Debian 11
-(Bullseye), there is a tutorial here:
+First, ensure you have Virtualbox 6.1 installed (7.0 appears to not 
+work with this image).  For Debian 11 (Bullseye), there is a tutorial 
+here (the tutorial installs 7.0, but instead issue the command for 
+6.1):
 
 https://linuxiac.com/how-to-install-virtualbox-on-debian-11-bullseye/
 
@@ -34,7 +36,14 @@ installed, and then, in this directory run:
 
 `vagrant up --provider=virtualbox`
 
-Also, be sure to go into Virtualbox -> Devices -> Networking -> Advanced and deselect "Cable Connected" in order to turn off the networking, since the machine is liable to be out of date. We currently still need to determine whether `apt-get update && apt-get upgrade` is going to break the FRDCSA systems installed.
+Also, be sure to go into Virtualbox -> Devices -> Networking -> 
+Advanced and deselect "Cable Connected" in order to turn off the 
+networking, since the machine is liable to be out of date. We 
+currently still need to determine whether 
+
+`sudo apt-get update && sudo apt-get upgrade` 
+
+is going to break the FRDCSA systems installed.
 
 The username is andrewdo and the password is temptemp
 
