@@ -10,7 +10,18 @@ code.  The most important individual project is the Free Life Planner
 
 = Howto
 
-First clone this repository, and change directory into it.
+First, ensure you have Virtualbox 6.1 installed.  For Debian 11
+(Bullseye), there is a tutorial here:
+
+https://linuxiac.com/how-to-install-virtualbox-on-debian-11-bullseye/
+
+Next, clone this repository:
+
+`git clone https://github.com/aindilis/frdcsa-panoply-git-20200329`
+
+and change directory into it:
+
+`cd frdcsa-panoply-git-20200329`
 
 Be sure you have at least 10144 MB of RAM free for use with VMs
 (otherwise edit the amount of ram in the Vagrantfile - note system
@@ -21,7 +32,7 @@ free (although machine is about 16 GB decompressed).
 Then ensure you have recent versions of VirtualBox and vagrant
 installed, and then, in this directory run:
 
-`vagrant up`
+`vagrant up --provider=virtualbox`
 
 The username is andrewdo and the password is temptemp
 
